@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Unkempt:400,700|Macondo+Swash+Caps);
+/*External stylesheet for Etch-a-Sketch*/
+body{
+    background: #FF0000;
+}
+h1{
+    padding-left: 530px;
+    font-size: 50px;
+    font-family: 'Macondo Swash Caps', cursive, sans-serif;
+    font-weight: bold;
+}
+.box{
+    background: white;
+    width:20px;
+    height:20px;
+}
+#buttons{
+    float:left;
+    list-style: none;
+    padding-left: 405px;
+    
+}
+#clear{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: left;
+    font-weight:bold;
+}
+#random{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    margin-left: 100px;
+    font-weight: bold;
+}
+#size{
+    background: #D1D1EE;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    float: left;
+    margin-left: 100px;
+    font-weight: bold;
+}
+table{
+    float: center;
+}
+#wrapper{
+    float:center;
+    padding-left:430px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
